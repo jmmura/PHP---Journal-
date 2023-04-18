@@ -1,0 +1,27 @@
+Format des fichiers .csv:
+
+Il y a une relation par fichier, le nom de la relation est le nom du fichier.
+La première ligne du fichier donne l'ordre des attributs.
+Ensuite, une ligne correspond à un tuple de la table.
+Les attributs sont séparés par des points virgules.
+
+Exemple:
+
+articles.csv
+url;doi;titre;date_publication;matricule_premier_auteur
+http://fake.url.com/0000006643.pdf;724210357969;Practical black-box attacks against machine learning;8/11/2011;36
+http://fake.url.com/0000009223.pdf;281979197359;Automated multimodal volume registration based on supervised 3d anatomical landmark detection;10/7/2013;47
+http://fake.url.com/0000003285.pdf;803309605495;Botulinum toxin potentiates cancer radiotherapy and chemotherapy.;6/1/2015;48
+http://fake.url.com/0000009658.pdf;865332550719;Temporal logic can be more expressive;11/2/2015;36
+
+
+Ce sont les typles de la relation "Articles"
+http://fake.url.com/0000006643.pdf correspond à l'url du premier article
+724210357969 à son DOI
+Practical black-box attacks against machine learning à son titre
+8/11/2011 à sa date de publication (8 novembre 2011)
+36 au matricule de l'auteur qui l'a publié
+
+http://fake.url.com/0000009223.pdf à l'url du second article
+...
+
